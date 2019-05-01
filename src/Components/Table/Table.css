@@ -1,0 +1,51 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    /* width:14.28%; */
+    /* max-width: 100%; */
+  }
+
+  .status{
+    background-color:#bfebfd;
+    padding: 0 8px;
+  }
+  .header{
+      color:#838fa1
+  }
+
+  .progress{
+    background-color:#1851ae;
+    height:10px;
+    border-radius: 10px;
+  }
+
+  .version{
+    color:#838fa1;
+    padding: 5px 0;
+    border: 0;
+    width:100%;
+  }
+
+  .addInput{
+      width:100%;
+      border:0;
+      background-color: #f0f2f5;
+  }
+
+  input:focus ,input:disabled{
+      outline:0;
+      background-color: #fff;
+  }
+
+  .ant-calendar-picker-input{
+    /* border :0; */
+  }
+  .ant-calendar-picker-icon{
+    display: none;
+  }
