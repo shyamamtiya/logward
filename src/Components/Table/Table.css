@@ -44,8 +44,17 @@ table {
   }
 
   .ant-calendar-picker-input{
-    /* border :0; */
+    border :0;
   }
   .ant-calendar-picker-icon{
     display: none;
+  }
+
+  .ant-input[disabled]{
+    background-color: #fff;
+    cursor: default;
+  }
+
+  .text-red{
+    color:red
   }
